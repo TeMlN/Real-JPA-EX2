@@ -98,4 +98,5 @@ public class OrderRepository {
                         " join fetch o.delivery", Order.class
         ).getResultList();
     }
+
 }
